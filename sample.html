@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSPL</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>HSPL</h1>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Services</a>
+            <a href="">Contact Us</a>
+        </div>
+        
+        </div>
+<div class="slider-box">
+    
+    <div id="slider">
+       <img src="bb.jpg" height="400" width="720"> 
+        <img src="bb2.jpg" height="400" width="720">
+        <img src="bb3.jpg" height="400" width="720"> 
+    </div>
+    <div class="indicators">
+        <span id="btn1"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+    
+    </div>
+</div>
+
+<script>
+    var slide = document.getElementById("slider");
+    var btn1 = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var btn3 = document.getElementById("btn3");
+
+    btn1.onclick = function(){
+        slide.style.transform = "translateX(0%)";
+    }
+    btn2.onclick = function(){
+        slide.style.transform = "translateX(-50%)";
+    }
+    btn3.onclick = function(){
+        slide.style.transform = "translateX(-100%)";
+    }
+</script>
+<br>
+<br>
+<div class="mid">
+    <div class="image">
+        <img src="aa.jpg">
+    </div>
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur esse obcaecati repudiandae cum quis voluptatum quam accusantium veniam voluptate sapiente, id nulla a eius animi magnam consequuntur corrupti nemo ab ducimus delectus libero iure reprehenderit asperiores? Iste, molestiae atque veniam doloribus est iure blanditiis natus minima. Expedita maiores architecto iste. Numquam pariatur aliquam id quos voluptates quisquam tenetur dicta saepe eos a iusto accusantium dolorem, soluta officia assumenda nulla, neque facilis deserunt aut architecto iure natus earum quam. Totam, accusamus nulla culpa tenetur illo animi magni quas reiciendis adipisci cum ea, consequuntur impedit nam deleniti! At, repellendus! Omnis rerum fuga nesciunt, ipsam, itaque quidem nostrum id tempora accusantium necessitatibus, recusandae qui! Illo tempore quam non harum excepturi architecto quo.
+        </p>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.header
+{
+    
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+.mid
+{
+    display: flex;
+}
+.m1
+{
+    margin-left: 20px;
+}
+.m2
+{
+    margin-left: 20px;
+}
+.m3
+{
+    margin-left: 20px;
+}
+.lower
+{
+    display: flex;
+
+}
+.l1
+{
+    margin-left: 50px;
+}
+.l2
+{
+    margin-left: 50px;
+   
+}
+.footer
+{
+    text-align: center;
+}

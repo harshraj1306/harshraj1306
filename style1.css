@@ -1,0 +1,64 @@
+body
+{
+    margin-right: 0px ;
+    margin-left: 0px;
+    line-height: 1.5;
+
+    
+}
+.navbar
+{
+    background-color: chartreuse;
+    display: flex;
+}
+
+.nav
+{
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+.slider-box
+{
+    overflow: hidden;    
+    transition: 0.5s;
+}
+#slider
+{
+    width: 100%;
+    display: inline-flex;
+}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+#slider img
+{
+    width: 90%;
+}
+.indicators
+{
+    position: absolute;
+    left: 50%;
+    /* transform: rotateX(-50%); */
+}
+.indicators span
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(27, 7, 7, 0.5);
+    cursor: pointer;
+    top: 500px;
+}
+
+.slider img
+{
+    width: 100%;
+}
+.image
+{
+    margin-left: 60%;
+    width: 100%;
+    height: auto;
+
+}

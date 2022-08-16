@@ -1,0 +1,24 @@
+.header
+{background-color: blanchedalmond;}
+.mid
+
+{display: flex;}
+.m1
+{background-color: aquamarine;
+    margin-left: 10px;}
+.m2
+{background-color: blue;
+    margin-left: 10px;}
+.m3
+{background-color: brown;
+    margin-left: 10px;}
+.lower
+{display: flex;}
+.l1
+{background-color: cadetblue;
+    margin-left: 10px;}
+.l2
+{background-color: chartreuse;
+    margin-left: 10px;}
+.footer
+{background-color: blueviolet;}
